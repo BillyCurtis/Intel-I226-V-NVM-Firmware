@@ -13,6 +13,7 @@ Both **1MB** and **2MB** firmware images are included, covering multiple revisio
 |------------------------------|---------|-----------|
 | `FXVL_125C_V_1MB_2.14.bin`  | 2.14    | 80000290  |
 | `FXVL_125C_V_1MB_2.17.bin`  | 2.17    | 80000308  |
+| `FXVL_125C_V_1MB_2.23.bin`  | 2.23    | 8000039D  |
 | `FXVL_125C_V_1MB_2.32.bin`  | 2.32    | 80000425  |
 
 ---
