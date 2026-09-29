@@ -10,7 +10,29 @@ Firmware files for the Intel I225-V and I226-V network controllers, available in
 | `FXVL_15F3_V_1MB_1.57.bin`  |1.57 | 80000182 | `FXVL_15F3_V_2MB_1.57.bin`  |1.57 | 80000185 |
 | `FXVL_15F3_V_1MB_1.68.bin`  |1.68 | 800001CE | `FXVL_15F3_V_2MB_1.68.bin`  |1.68 | 800001C7 |
 | `FXVL_15F3_V_1MB_1.89.bin`  |1.89 | 800002FC | `FXVL_15F3_V_2MB_1.89.bin`  |1.89 | 800002F4 |
-|                             |     |          |                             |     |          |
+| `FXVL_15F3_V_1MB_1.94.bin`  |1.94 | 800003FC |                             |     |          |
+
+---
+
+### I225-LM
+| 1MB File Name               | Ver | EtrackID | 2MB File Name               | Ver | EtrackID |
+|-----------------------------|-----|----------|-----------------------------|-----|----------|
+| `FXVL_15F2_LM_1MB_1.89.bin` |1.89 | 800002FB |                             |     |          |
+| `FXVL_15F2_LM_1MB_1.94.bin` |1.94 | 800003BC | `FXVL_15F2_LM_2MB_1.94.bin` |1.94 | 800003BB |
+
+---
+
+### I226-IT
+| 1MB File Name               | Ver | EtrackID | 2MB File Name               | Ver | EtrackID |
+|-----------------------------|-----|----------|-----------------------------|-----|----------|
+| `FXVL_125D_IT_1MB_2.32.bin` |2.32 | 80000433 | `FXVL_125D_IT_2MB_2.32.bin` |2.32 | 80000431 |
+
+---
+
+### I226-LM
+| 1MB File Name               | Ver | EtrackID | 2MB File Name               | Ver | EtrackID |
+|-----------------------------|-----|----------|-----------------------------|-----|----------|
+| `FXVL_125B_LM_1MB_2.32.bin` |2.32 | 80000424 | `FXVL_125B_LM_2MB_2.32.bin` |2.32 | 80000421 |
 
 ---
 
@@ -36,4 +58,3 @@ Firmware files for the Intel I225-V and I226-V network controllers, available in
 | 2.17 | 1. Update PHY FW to 4C07_888D |
 | 2.14 | **Production Release**<br>1. PHY FW to 4C08_7877<br>2. Management FW: 1.54<br>3. Energy Efficient Ethernet is enabled by the driver (Windows & Linux) |
 | 2.13 | **Initial Release**<br>1. PHY FW to 4C08_7877<br>2. Management FW: 1.53<br>3. Alternative MAC address section is permanently removed<br>4. Energy Efficient Ethernet is disabled by default |
-

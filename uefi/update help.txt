@@ -1,0 +1,31 @@
+===================================
+Make a backup of the network card firmware
+
+shell> fs0:
+FS0:\> ls
+FS0:\> eeupdate64e.efi /all
+FS0:\> eeupdate64e.efi /device=15F3 /eepromver
+FS0:\> eeupdate64e.efi /device=15F3 /dump
+
+Back up each network port one by one, following nic=1, 2, 3, 4.
+
+FS0:\> eeupdate64e.efi /nic=1 /eepromver
+FS0:\> eeupdate64e.efi /nic=1 /dump
+
+====================================
+
+Check whether the firmware is compatible. 
+The 225/I226 will show "Feature not supported for this adapter" — that's totally normal,
+ 'cause this feature is only available in the X710/700 series (which has an NVM protection mechanism).
+ It's not a bug.
+
+FS0:\> eeupdate64e.efi /device=15F3 XXX.bin
+
+====================================
+Flash the network card firmware
+Flash firmware to each network port sequentially, following nic=1, 2, 3, 4.
+
+FS0:\> eeupdate64e.efi /nic=1 /d xxx.bin
+FS0:\> eeupdate64e.efi /nic=1 /eepromver
+
+Success message: Shared Flash image updated successfully
